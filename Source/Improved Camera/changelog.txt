@@ -1,0 +1,44 @@
+Changelog:
+
+Beta 4
+- Partial fix to bFixSkyrimIntro not working as intended
+- Fixed main incompatibility with .NET Script Framework
+- Fomod installer added
+
+Beta 3
+- Fixed bEnableHeadFirstPersonScripted not being implemented
+- Added missing bHideBodySleeping=0 to ini
+- Removed bSheathedCustomWeaponFix
+- Tweaked bFixTorchWhenSitting internally
+- Fixed bEnableFirstPersonBodyConsole not working as intended
+- Fixed bFirstPersonHorse not working as intended
+- Fixed bFirstPersonDragon not working as intended
+- Matched internally recommended ini settings
+- Update ini file - Thanks to upandawaykid (reddit)
+
+Beta 2
+- Fixed fMountedRestrictAngle
+- Fixed numerous mount checks
+- Updated ini file
+
+Beta 1
+- Rebranded as "Improved Camera"
+- Rebuilt with "Universal DLL Project", it is now compatible with version 1.5.39, 1.5.62 and possibly all versions in between. 
+  It may be compatible with game updates that don't exist yet at the time of writing this.
+- Source code released.
+
+Alpha 3
+- Fixed werewolf head not getting hidden.
+- Fixed vampire lord / werewolf switches between 1st/3rd person.
+- Fixed head of player shadow dissapearing (SE specific bug)
+
+Alpha 2:
+- Created the Oldrim backport, for debug and alpha test purposes.
+- Fixed a crash that could happen when riding a horse.
+- Fixed horse 1st/3rd person switch.
+- Now head is hidden when bEnableHeadFirstPerson=0 (default value)
+- The duplicated arms/bow has been fixed.
+
+Alpha 1:
+- Initial version
+
